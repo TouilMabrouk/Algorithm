@@ -1,0 +1,25 @@
+ALGORITHM Learn Algo 
+VAR
+    sentence:STRING;
+    word:STRING;
+    content:STRING;
+    STRING:(' ');
+    using namespace std;
+    int i; 
+    int wordcount = 0; 
+    READ('.')
+	READ(' ')
+BEGIN
+     FOR (char letter = 'a'; letter <= 'z'; letter++);
+         (int i = 0; i < word.length(); i++)
+     END_FOR (int i = 0; i < word.length(); i++)
+
+    IF (word.charAt(i) == letter);
+     THEN
+     wordCount++;
+         
+    END_IF(wordCount > 0)
+    wordCount = 0;
+   
+   
+END
